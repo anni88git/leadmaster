@@ -11,13 +11,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/leads",
+					"raw": "http://localhost:5000/api/leads",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5000",
 					"path": [
+						"api",
 						"leads"
 					]
 				}
@@ -30,13 +31,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/leads/1",
+					"raw": "http://localhost:5000/api/leads/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5000",
 					"path": [
+						"api",
 						"leads",
 						"1"
 					]
@@ -59,13 +61,14 @@
 					"raw": "{\n    \"name\": \"Alice Smith\",\n    \"email\": \"alice@example.com\",\n    \"status\": \"New\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:5000/leads",
+					"raw": "http://localhost:5000/api/leads",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5000",
 					"path": [
+						"api",
 						"leads"
 					]
 				}
@@ -87,13 +90,14 @@
 					"raw": "{\n    \"id\": 1,\n    \"name\": \"Alice Smith (Updated)\",\n    \"email\": \"alice_new@example.com\",\n    \"status\": \"Contacted\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:5000/leads/1",
+					"raw": "http://localhost:5000/api/leads/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5000",
 					"path": [
+						"api",
 						"leads",
 						"1"
 					]
@@ -107,7 +111,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/leads/1",
+					"raw": "http://localhost:5000/api/leads/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
