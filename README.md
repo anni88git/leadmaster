@@ -1,4 +1,4 @@
-# 🚀 LeadManager API
+# LeadManager API
 
 ![.NET Core](https://img.shields.io/badge/.NET%208.0-Purple?logo=dotnet)
 ![Entity Framework Core](https://img.shields.io/badge/EF%20Core-SQL%20Server-blue?logo=nuget)
@@ -7,7 +7,7 @@
 
 **LeadManager** is a high-performance, lightweight RESTful Web API built with **ASP.NET Core 8 Minimal APIs**. Designed with clean architecture principles, it provides a robust backend for managing sales leads.
 
-## ✨ Key Features & Technical Highlights
+## Key Features & Technical Highlights
 
 - **Modern Architecture**: Utilizes .NET 8 Minimal APIs with clean endpoint mapping separated from `Program.cs`.
 - **Data Transfer Objects (DTOs)**: Clear separation of concerns between Entity Models and API contracts.
@@ -18,7 +18,7 @@
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 The project is structured to scale cleanly while maintaining the simplicity of Minimal APIs:
 
@@ -33,7 +33,7 @@ LeadManager/
 └── Program.cs            # Application bootstrapping & middleware
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
@@ -59,7 +59,7 @@ LeadManager/
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description | Status Codes |
 |---|---|---|---|
@@ -82,5 +82,5 @@ POST /api/leads
 
 ---
 
-## 🛠️ Testing via Postman
+## Testing via Postman
 A Postman collection (`LeadManager.postman_collection.json`) is included in the `LeadManager` folder. Import this file into Postman to instantly execute requests against the local environment.
